@@ -1,0 +1,26 @@
+PLAYER ENDPOINTS
+GET https://api.minecraftservices.com/minecraft/profile
+GET https://api.minecraftservices.com/player/attributes
+GET https://api.minecraftservices.com/privacy/blocklist
+POST https://api.minecraftservices.com/player/certificates
+GET https://api.minecraftservices.com/minecraft/profile/namechange
+GET https://api.minecraftservices.com/productvoucher/giftcode
+GET https://api.minecraftservices.com/minecraft/profile/name/<name>/available
+PUT https://api.minecraftservices.com/minecraft/profile/name/<name>
+POST https://api.minecraftservices.com/minecraft/profile/skins
+DELETE https://api.minecraftservices.com/minecraft/profile/skins/active
+DELETE https://api.minecraftservices.com/minecraft/profile/capes/active
+PUT https://api.minecraftservices.com/minecraft/profile/capes/active
+POST https://sessionserver.mojang.com/session/minecraft/join
+
+PUBLIC ENDPOINTS
+GET https://api.mojang.com/users/profiles/minecraft/<username>
+POST https://api.minecraftservices.com/minecraft/profile/lookup/bulk/byname
+GET https://sessionserver.mojang.com/session/minecraft/profile/<uuid>
+GET https://sessionserver.mojang.com/blockedservers
+GET https://sessionserver.mojang.com/session/minecraft/hasJoined?username=username&serverId=hash&ip=ip
+
+LOGIN ENDPOINTS
+POST https://user.auth.xboxlive.com/user/authenticate
+POST https://xsts.auth.xboxlive.com/xsts/authorize
+POST https://api.minecraftservices.com/authentication/login_with_xbox
