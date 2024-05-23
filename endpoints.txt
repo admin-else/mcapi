@@ -14,7 +14,7 @@ PUT https://api.minecraftservices.com/minecraft/profile/capes/active
 POST https://sessionserver.mojang.com/session/minecraft/join
 
 PUBLIC ENDPOINTS
-GET https://api.mojang.com/users/profiles/minecraft/<username>
+GET https://api.minecraftservices.com/users/profiles/minecraft/<username>
 POST https://api.minecraftservices.com/minecraft/profile/lookup/bulk/byname
 GET https://sessionserver.mojang.com/session/minecraft/profile/<uuid>
 GET https://sessionserver.mojang.com/blockedservers
